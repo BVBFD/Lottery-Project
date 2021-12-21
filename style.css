@@ -133,6 +133,7 @@ header .playBtn:active {
   line-height: 2rem;
   text-align: center;
   background: #666;
+  color: white;
   transform: translateY(0) rotateX(0);
   transform-origin: bottom;
 }
@@ -254,6 +255,12 @@ header .playBtn:active {
     height: 3rem;
   }
 
+  header .playBtn {
+    right: 0;
+    bottom: -2rem;
+    padding: 0.2rem;
+  }
+
   .footer .price span {
     font-size: 1rem;
   }
@@ -282,6 +289,12 @@ header .playBtn:active {
   header div img:nth-child(4) {
     width: 3rem;
     height: 3rem;
+  }
+
+  header .playBtn {
+    right: 0;
+    bottom: -2rem;
+    padding: 0.2rem;
   }
 }
 
@@ -320,9 +333,18 @@ header .playBtn:active {
   .footer .footerNum {
     font-size: 0.8rem;
   }
+
+  .numbox .numboxRow span div:nth-child(1) {
+    width: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .numbox .numboxRow span div:nth-child(2) {
+    width: 1.5rem;
+    line-height: 1.5rem;
+  }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 320px) {
   body {
     width: 100%;
   }
@@ -334,5 +356,14 @@ header .playBtn:active {
 
   header {
     padding: 0;
+  }
+
+  .numbox .numboxRow span div:nth-child(1) {
+    width: 1.3rem;
+    line-height: 1.3rem;
+  }
+  .numbox .numboxRow span div:nth-child(2) {
+    width: 1.3rem;
+    line-height: 1.3rem;
   }
 }
